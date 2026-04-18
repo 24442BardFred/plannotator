@@ -15,7 +15,8 @@
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf dist",
     "rebuild": "npm run clean && npm run build",
-    "dev:debug": "ts-node --inspect src/index.ts"
+    "dev:debug": "ts-node --inspect src/index.ts",
+    "precommit": "npm run typecheck && npm run lint"
   },
   "keywords": ["annotation", "planning", "typescript"],
   "license": "MIT",
