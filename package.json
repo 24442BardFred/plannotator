@@ -14,7 +14,8 @@
     "lint:fix": "eslint src/**/*.ts --fix",
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf dist",
-    "rebuild": "npm run clean && npm run build"
+    "rebuild": "npm run clean && npm run build",
+    "dev:debug": "ts-node --inspect src/index.ts"
   },
   "keywords": ["annotation", "planning", "typescript"],
   "license": "MIT",
