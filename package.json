@@ -12,7 +12,9 @@
     "test:coverage": "jest --coverage",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build"
   },
   "keywords": ["annotation", "planning", "typescript"],
   "license": "MIT",
