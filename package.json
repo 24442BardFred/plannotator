@@ -36,6 +36,8 @@
     "typescript": "^5.4.5"
   },
   "jest": {
-    "verbose": true
+    "verbose": true,
+    "testPathPattern": "src/__tests__",
+    "collectCoverageFrom": ["src/**/*.ts", "!src/index.ts"]
   }
 }
