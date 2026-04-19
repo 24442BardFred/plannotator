@@ -38,6 +38,11 @@
   "jest": {
     "verbose": true,
     "testPathPattern": "src/__tests__",
-    "collectCoverageFrom": ["src/**/*.ts", "!src/index.ts"]
+    "collectCoverageFrom": ["src/**/*.ts", "!src/index.ts"],
+    "coverageThreshold": {
+      "global": {
+        "lines": 80
+      }
+    }
   }
 }
