@@ -19,6 +19,7 @@
     "precommit": "npm run typecheck && npm run lint"
   },
   "keywords": ["annotation", "planning", "typescript"],
+  "author": "personal fork — learning project",
   "license": "MIT",
   "dependencies": {
     "zod": "^3.22.4"
